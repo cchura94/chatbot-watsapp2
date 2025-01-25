@@ -41,7 +41,7 @@ const Contacto = sequelize.define("Contacto", {
 
 const Mensaje = sequelize.define("Mensaje", {
   mensaje: {
-    type: DataTypes.STRING,
+    type: DataTypes.TEXT,
     allowNull: true,
   },
   contactoId: {
